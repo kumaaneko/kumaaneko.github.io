@@ -1,0 +1,222 @@
+/*css reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Body */
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	background-image: url(subtle.png);
+}
+
+/* Header */
+/* header */
+.header {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+}
+.sticky {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+.judul {
+	float: left;
+	margin: 26px 10px;
+	font-size: 40px;
+	font-weight: bold;
+}
+.header h1{
+	color: white;
+}
+.jdlnavbar {
+	float: left;
+	margin: 20px;
+	font-size: 40px;
+	font-weight: bold;
+}
+.menu {
+	position: fixed;
+	background: #f6f6f6;
+	color: #232323;
+	height: 100%;
+	width: 275px;
+	top: 0px;
+	left: -300px;
+	-webkit-transition: left 0.2s;
+	transition: left 0.2s;
+	border: 1px solid #ccc;
+}
+.menu h2 {
+	color: black;
+}
+.menu ul{
+	margin: 25px 10px;
+}
+.menu li{
+	list-style-type: none;
+	padding: 10px 0px;
+}
+.menu li:hover {
+	background-color: #e1e1e1;
+}
+.menu a{
+	color: #232323;
+	text-decoration: none;
+	font-size: 15px;
+}
+.tombol{
+	float: left;
+	background: transparent;
+	padding: 10px;
+	color: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 4px;
+	margin: 17.3px 10px;
+}
+.tombol img {
+	width: 20px;
+	height: 20px;
+}
+.tbl{
+	float: left;
+	background: transparent;
+	padding: 10px;
+	color: #000000;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 3px;
+	margin: 0px 20px;
+}
+.tbl img {
+	width: 20px;
+	height: 20px;
+}
+.slide-menu-tampil{
+	left: 0 !important;
+}
+.menu a {
+	font-weight: bold;
+	padding-left: 20px;
+}
+.search {
+	float: right;
+	height: 80px;
+	margin-right: 20px;
+}
+.cari {
+	float: right;
+    margin: 18.25px 0px;
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.search input {
+	margin: 28.3px 10px;
+    width: 150px;
+    height: 20px;
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 1px solid white;
+    color: white;	
+}
+.search img {
+	background-color: transparent;
+	width: 20px;
+	height: 20px;
+}
+
+/* Banner*/
+.container {
+	width: 90%;
+	height: 260px;
+	margin: 95px auto 0px;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 10px 0px;
+}
+.img {
+	background-image: url(banner.png);
+    width: 550px;
+    height: 260px;
+    margin: auto;
+    background-position: -33px 0;
+}
+
+/* Clearfix*/
+.clear {
+	clear: both;
+}
+.clear2 {
+	clear: left;
+}
+.clear.3 {
+	clear: right;
+}
+
+/* Contents*/
+.contents {
+    width: 58%;
+    margin: 30px 0px 0px 5vw;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 20px;
+    float: left;
+}
+.main {
+	
+	
+}
+.sidebar {
+    width: 24%;
+    margin: 30px 5vw 0px 0px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 8px;
+    float: right;
+} 
